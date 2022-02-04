@@ -1,7 +1,7 @@
 Form needs to validate that the input is correct
 add a date field?
 
-add field for deposits?
+add field for deposits? radio button, perhaps?
 
 Items from expense list should be objects with a name and a value
 Objects should be stored in an array
