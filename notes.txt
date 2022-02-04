@@ -1,5 +1,6 @@
 Form needs to validate that the input is correct
 add a date field?
+items need a delete button
 
 add field for deposits? radio button, perhaps?
 
@@ -9,3 +10,5 @@ List should be populated from the array
     if date field is added, order expenses by date
 total should be calculated from the values in the array
     if deposits and expenses are both used, deposits should be in a separate column and green; expenses should be red
+
+every time the list is added to or deleted from, it should automatically refresh and recalculate
