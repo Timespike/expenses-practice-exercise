@@ -20,11 +20,24 @@
         </form>
     </div>
     <div class="list" id="expense-list">
-        <ul class="expenses" id="expenses">
-            <li class="item-entry">Example Item $35.27</li>
-            <li class="item-entry">Example Item $12.61</li>
-        </ul>
-        <h3 class="total-expenses" id="totalExpenses">Total Expenses: $47.88</h1>
+        <table class="expenses" style="width: 50%">
+            <tr class="headers">
+                <th class="table-header">Expense</th>
+                <th class="table-header">Date</th>
+                <th class="table-header">Amount</th>
+            </tr>
+            <tr class="table-body">
+                <td>Oil Change</td>
+                <td>February 19, 2014</td>
+                <td>$18.74</td>
+            </tr>
+            <tr>
+                <td>Lunch</td>
+                <td>February 22, 2014</td>
+                <td>$7.19</td>
+            </tr>
+        </table>
+        <h3 class="total-expenses" id="totalExpenses">Total Expenses: $25.93</h1>
     </div>
 </body>
 </html>
